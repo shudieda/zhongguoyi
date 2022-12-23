@@ -13,11 +13,16 @@
             text-align:center;
         }
 
+        @font-face {
+            font-family: 微软雅旗黑;
+            src: url("/微软雅旗黑.ttf");
+        }
+
 
     </style>
 </head>
 <body style="overflow-x: hidden;" oncontextmenu=self.event.returnValue=false>
-<div style="width: 1210px;height:850px;margin: 0 auto;">
+<div style="width: 1210px;height:850px;margin: 0 auto;font-family: 微软雅旗黑;">
     <img src="Roaming/z5.png" style="position: absolute;">
 
     <div contenteditable style="font-size: 10px; display: inline-block; position: absolute;margin-top: 166px;margin-left: 206px;">提交日期：<div>Submitting Date</div></div>
@@ -89,12 +94,7 @@
 
 </div>
 
-<script>
-    var ua = navigator.userAgent;
-    if(ua !== "Mozilla/5.0 (Windows NT 10.0; Win64; x64; ed)"){
-        document.querySelector("body").style="display: none;"
-    }
-</script>
+
 
 </body>
 </html>
